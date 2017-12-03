@@ -69,7 +69,7 @@
                         $rootScope.files = [];
                         angular.forEach(response.data, function(file) {
                             var composer = file.substr(file.indexOf('('));
-                            var endIndex = composer.indexOf(".");
+                            var endIndex = composer.indexOf(";");
                             var comp = composer.substr(1, --endIndex);
                             // console.log(comp)
                             var source = [{
@@ -79,6 +79,7 @@
                                 composer: comp,
                                 playing: false,
                                 displayName: file.substr(0, file.indexOf('(')),
+                                movie: file.substr(file.indexOf(';') + 1, file.indexOf('.')).replace('.mp3', ''),
                                 fullName: file.substr(0, file.indexOf('.'))
                             }];
                             $rootScope.files.push(source);

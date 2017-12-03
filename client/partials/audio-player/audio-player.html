@@ -42,7 +42,8 @@
                 <ul class="filelist col-md-12  col-sm-12">
                     <li ng-repeat="file in files" title="{{file[0].fullName}}" ng-class="file[0].playing ? 'playing' : ''" class="col-md-12" ng-click="controller.changeTrack($index)">
                         {{file[0].displayName}}
-                        <p style="overflow:hidden;" class="col-md-12 composer">{{file[0].composer}}</p>
+                        <div style="overflow:hidden;" class="col-md-12 composer">{{file[0].composer}}</div>
+                        <div style="overflow:hidden; margin-bottom: 10px;" class="col-md-12">{{file[0].movie}}</div>
                     </li>
                 </ul>
             </div>
