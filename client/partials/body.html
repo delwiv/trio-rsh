@@ -9,12 +9,9 @@
     <div class="well">
         <div class="col-md-12" class="home-body">
             <span class="anchor" id="home"></span>
-            <img class="col-md-12 main-pic" src="/assets/mpquartet.jpg" style="width:100%; height: auto;" />
+            <img class="main-pic" src="/assets/mpquartet.jpg" style="width:60%; height: auto;" />
+            <span ng-bind-html="home.homeMessage" id="home-message"></span>
         </div>
-        <div style="clear:both;"></div>
-    </div>
-    <div class="well">
-        <div class="col-md-12" ng-bind-html="home.homeMessage" id="home-message"></div>
         <div style="clear:both;"></div>
     </div>
 </div>
