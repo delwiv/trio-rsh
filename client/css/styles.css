@@ -60,10 +60,6 @@ body {
     padding: 3px;
 }
 
-.table-agenda tr:hover {
-    /*background-color: #000 !important;*/
-}
-
 .table-agenda td,
 .table-agenda th {
     border: none !important;
@@ -105,9 +101,6 @@ body {
 }
 
 .form-group {
-    /*border*/
-
-    : 1px solid black;
     border-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding: 10px;
@@ -126,8 +119,6 @@ canvas {
     height: 100px;
     margin: 6px 0 0 6px;
 }
-
-.glyphicon {}
 
 .contact-ul span {
     margin: 10px;
@@ -154,13 +145,6 @@ canvas {
 #new-date {
     margin-bottom: 30px;
 }
-/*
-#new-date input {
-    padding: 4px;
-}
-#new-date  {
-    padding: 4px;
-}*/
 
 .datetimepicker {
     color: #000;
@@ -210,22 +194,7 @@ canvas {
     padding: 15px;
 }
 
-.myHeader h1 {
-    /*font-family: 'Coming Soon';
-    font-size: 80px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: bold;
-    line-height: normal;*/
-}
-
 .navbar {
-    /*font-family: 'Coming Soon';
-    font-style: normal;
-    font-variant: normal;
-    font-weight: bold;
-    line-height: normal;*/
-
     color: #bbbbbb;
     background-color: rgba(0, 0, 0, 0.65);
 }
@@ -240,17 +209,6 @@ canvas {
     background-color: rgba(255, 255, 255, 0.65);
 }
 
-.sidenav {
-    /*margin-top: 10px;*/
-    /*top:280px;*/
-    /*font-family: 'Coming Soon';
-    font-style: normal;
-    font-variant: normal;
-    font-weight: bold;
-    line-height: normal;*/
-    /*color: #bbbbbb;*/
-    /*background-color: rgba(0, 0, 0, 0.65);*/
-}
 
 #sidebar {
     background-color: rgba(0, 0, 0, .6);
@@ -265,15 +223,15 @@ canvas {
         float:left;
         position: relative;
     }
-    body {
+    /* body {
         background-size: auto 100%;
-    }
+    } */
 }
 
 @media (min-width: 992px) {
     #sidebar {
         position: fixed;
-        overflow: hidden;
+        overflow: scroll;
         width: 25%;
         top: 80px;
         height:90%;
