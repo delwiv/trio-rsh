@@ -62,7 +62,7 @@
                 }
 
                 function initPlayer(width) {
-                    if (width < 1024) return;
+                    // if (width < 1024) return;
                     console.log('init');
                     init = true;
                     AudioService.getFilenames().then(function(response) {
@@ -114,15 +114,15 @@
                     return $window.innerWidth;
                 }, function(width) {
                     // console.log('width: ' + width);
-                    if (width > 1024) {
-                        $('#leftcol').show();
-                        if ($rootScope.player)
-                            $rootScope.player.play();
-                    } else {
-                        $('#leftcol').hide();
-                        if ($rootScope.player)
-                            $rootScope.player.pause();
-                    }
+                    // if (width > 1024) {
+                    $('#leftcol').show();
+                    if ($rootScope.player)
+                        $rootScope.player.play();
+                    // } else {
+                    //     $('#leftcol').hide();
+                    //     if ($rootScope.player)
+                    //         $rootScope.player.pause();
+                    // }
                     if (!init) {
                         initPlayer(width);
                     }
