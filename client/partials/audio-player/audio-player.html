@@ -1,7 +1,7 @@
 <nav id="leftcol" class="sidebar">
     <!-- <div class="well"> -->
     <ul id="sidebar" class="nav sidenav">
-        <li><slideshow class="col-md-12"></slideshow>
+        <li><slideshow class="col-xs-12"></slideshow>
         </li>
         <li>
             <div id="player-placeholder" ng-hide="!buffering">
@@ -32,7 +32,7 @@
                     vg-player-ready="controller.onPlayerReady($API)" 
                     vg-auto-play="true" 
                     vg-theme="controller.config.theme.url" 
-                    class="videogular-container audio col-md-12 col-sm-12" 
+                    class="videogular-container audio col-xs-12" 
                     vg-complete="controller.vgComplete()">
                     <vg-media vg-src="controller.config.sources" vg-preload="preload" vg-type="audio"></vg-media>
                     <vg-controls>
