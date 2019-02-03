@@ -33,7 +33,7 @@ module.exports = function(app) {
         fs.readdir(audioFolder, function(error, result) {
             // console.log(error);
             // console.log(result);
-            res.json(result);
+            res.json(result.filter(f => f.includes('.mp3')));
         });
     });
     app.get('/audiofiles/:filename', function(req, res, next) {

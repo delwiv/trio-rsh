@@ -76,7 +76,7 @@
                 composer: comp,
                 playing: false,
                 displayName: file.substr(0, file.indexOf('(')),
-                movie: file.substr(file.indexOf(';') + 1, file.indexOf('.')).replace('.mp3', ''),
+                // movie: file.substr(file.indexOf(';') + 1, file.indexOf('.')).replace('.mp3', ''),
                 fullName: file.substr(0, file.indexOf('.')),
               },
             ]
