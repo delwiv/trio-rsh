@@ -4,3 +4,4 @@ dump.tar
 client/dist/boheme.min.js
 .DS_Store
 .DS_Store
+server/datasources.json
