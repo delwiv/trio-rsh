@@ -1,5 +1,6 @@
-./server/storage/audiofiles/01 - Makin' whoopee(Gus Khan - Walter Donaldson;Whoopee !.mp3
-./server/storage/audiofiles/03 - I'm through with love(Fud Livington - Matt Malneck - Gus Khan;Some Like It Hot.mp3
-./server/storage/audiofiles/02 - Je ne pourrai jamais vivre sans toi(Michel Legrand;Les parapluies de Cherbourg.mp3
-./server/storage/audiofiles/04 - My favorite things(Richard Rogers;The sound of music.mp3
-./server/storage/audiofiles/05 - Love for sale(Cole Porter;The New Yorkers.mp3
+./server/storage/audiofiles/1 - Poinciana (Ahmad Jamal;.mp3
+./server/storage/audiofiles/2 - Jitterbug waltz (Fats Waller;.mp3
+./server/storage/audiofiles/3 - I fall in love too easily (Jule Styne;.mp3
+./server/storage/audiofiles/4 - Triste (A.C Jobim;.mp3
+./server/storage/audiofiles/5 - Out of nowhere (Johnny Green;.mp3
+

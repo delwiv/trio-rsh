@@ -1,7 +1,11 @@
 {
-  "name": "mpquartet",
+  "name": "trio-rsh",
   "version": "1.0.0",
   "main": "server/server.js",
+   "engines": {
+    "node": "10.15.3",
+    "npm": "6.9.0"
+ },
   "scripts": {
     "pretest": "jshint .",
     "postinstall": "bower install && ./node_modules/.bin/gulp"

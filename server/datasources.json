@@ -5,7 +5,7 @@
   },
   "mongoDB": {
     "host": "localhost",
-    "database": "mpquartet",
+    "database": "trio-rsh",
     "name": "mongoDB",
     "connector": "mongodb"
   },

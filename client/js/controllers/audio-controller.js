@@ -17,12 +17,12 @@
         $rootScope.player.setVolume(0.8)
 
         $rootScope.$watch('player.isBuffering', function(newVal, oldVal) {
-          if (newVal == false) {
+          if (newVal === false && oldVal === true) {
             $rootScope.buffering = false
           }
         })
 
-        if (API.currentState != 'play') {
+        if (API.currentState !== 'play') {
           //Force play if autoplay doesn't work
           API.play()
           // API.currentState = 'play';
