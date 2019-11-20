@@ -18,11 +18,11 @@ body {
   background-image: url('/assets/bg.jpg');
   background-position: top;
   background-attachment: fixed;
-  background-size: auto 100%;
+  background-size: 100% auto;
   background-repeat: no-repeat;
-  min-width: 100%;
+  /*min-width: 100%;
   min-height: 100%;
-  /*font-family: 'Comic Sans Ms';
+  *//*font-family: 'Comic Sans Ms';
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
@@ -213,6 +213,7 @@ canvas {
 
 #sidebar {
   background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
 }
 
 .container-fluid {
@@ -232,7 +233,6 @@ canvas {
 @media (min-width: 992px) {
   #sidebar {
     position: fixed;
-    overflow: scroll;
     width: 25%;
     top: 80px;
     height: 90%;
